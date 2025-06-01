@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS1demo</title>
+
+   <style>
+    * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        html,
+        body {
+            height: 100%;
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            flex-shrink: 0;
+        }
+
+        h1 {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #f4f4dc;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.1em;
+            background-color: transparent;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            background-image: url('background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        main p {
+            max-width: 800px;
+            font-size: 1.1em;
+            line-height: 1.6;
+            background-color: rgba(255, 255, 255, 0.8);
+            /* Optional for better readability */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            flex-shrink: 0;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #666;
+            background-color: #f0e6c0;
+        }
+
+        @media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    nav a {
+        margin: 5px 0;
+        display: inline-block;
+        font-size: 1em;
+    }
+}
+
+
+   </style>
+
+</head>
+
+<body>
+    <header>
+        <!-- <img src="imageps1/profile.png" alt="Sahil" 20*20px>   -->
+        <h1>
+            I am Sahil Grewal
+        </h1>
+
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="About me.html">About me</a>
+
+            <a href="My work.html">My Works</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+
+
+    </header>
+    <main>
+        <p>
+            Hello! I'm Sahil Grewal, a passionate and detail-oriented individual with a strong interest in technology
+            and creative problem-solving. I enjoy building meaningful digital experiences and learning new tools that
+            help bring ideas to life.
+            <br>
+
+            I created this portfolio to showcase my journey, projects, and skills developed through academic learning
+            and personal exploration. Whether it's coding a website, designing a solution, or collaborating on a team
+            project, I believe in continuous improvement and staying curious.
+        </p>
+    </main>
+
+    <footer>
+        Copyright &copy; All rights reserved Sahil Grewal 2025
+    </footer>
+
+</body>
+
+</html>

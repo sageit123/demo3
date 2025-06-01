@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    /* body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 40px;
+      color: #333;
+    } */
+
+    *{
+      background-color: beige;
+    }
+
+    
+
+    p {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
+    a {
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #0d47a1;
+      text-decoration: underline;
+    }
+
+    /* Form Styling */
+    form {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: beige;
+      border-radius: 10px;
+      max-width: 600px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 6px;
+      margin-top: 12px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button[type="submit"] {
+      margin-top: 16px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color: red;
+    }
+
+    h1 {
+      font-size: 32px;
+      background-color: black;
+      color: white;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>
+    My Contact
+  </h1>
+
+  <p>Email: <a href="sahil.grewal12466@gmail.com">sahil.grewal12466@gmail.com</a></p>
+
+  <p>
+    Connect with me:
+    <a href="https://www.linkedin.com/in/sahil-grewal-329330314" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/sageit123" target="_blank">GitHub</a>
+  </p>
+
+  <form action="#" method="post">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" placeholder="Type Your Name" required /><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" placeholder="Type Your Email" required /><br /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message" rows="5" placeholder="Write Your Message here "
+      required></textarea><br /><br />
+
+    <button type="submit">Send</button>
+  </form>
+
+
+
+
+</body>
+
+</html>
